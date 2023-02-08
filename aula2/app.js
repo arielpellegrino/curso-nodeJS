@@ -1,4 +1,8 @@
-let somaFunc = require("./calc.js");
+let calc = require("./calc.js");
 
-//const result = somaFunc(10, 20)
-console.log(somaFunc(20,10))
+console.log(calc.nome)
+console.log(calc.soma(1, 2))
+console.log(calc.multi(2,2))
+calc.nome = 'minha calculadora';
+
+console.log(calc.nome)
